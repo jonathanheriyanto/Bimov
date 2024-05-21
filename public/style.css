@@ -1,0 +1,506 @@
+body{
+    font-family: "Poppins", sans-serif !important;
+    background-color: #d3d3d3;
+}
+
+#footer{
+    padding: 8px;
+    background-color: #015581;
+    color: #ffffff5a;
+    text-align: center;
+    font-size: small;
+    font-weight: 200;
+    letter-spacing: 6px;
+}
+
+#lang-selection{
+    min-width: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #FFFFFF;
+    margin-right: 24px;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+#nav-css{
+    padding-left: 107px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 107px;
+}
+
+.navbar-brand img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+}
+
+.nav-item{
+    margin-left: 32px;
+}
+
+.nav-link{
+    display: inline-block;
+    position: relative;
+    font-size: 14px !important;
+    color: #FFFFFF !important;
+    opacity: 1;
+}
+
+.nav-link:hover{
+    opacity: 1;
+}
+
+.nav-link::before{
+    transition: 300ms;
+    height: 1px;
+    content: "";
+    position: absolute;
+    background-color: #FFFFFF;
+}
+
+.nav-link-ltr::before {
+    width: 0%;
+    bottom: 10px;
+}
+
+.nav-link-ltr:hover::before {
+    width: 82%;
+}
+
+.nav-link-ltr2::before {
+    width: 0%;
+    bottom: 4px;
+}
+
+.nav-link-ltr2:hover::before {
+    width: 100%;
+}
+
+.nav-linko{
+    position: relative;
+    font-size: 14px !important;
+    color: #FFFFFF !important;
+    opacity: 1;
+}
+
+.nav-linko:hover{
+    opacity: 1;
+}
+
+#dd{
+    background-color: #F2951E;
+    border: none;
+}
+
+#ddm{
+    text-decoration: none !important;
+}
+
+#ddm:hover{
+    background-color: #da7400;
+}
+
+#button-org{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 12px;
+    background: #F2951E;
+    border-radius: 25px;
+    font-size: 14px !important;
+    font-weight: 500;
+    color: #FFFFFF !important;
+}
+
+#button-org:hover{
+    background: #da7400;
+    transition: 0.5s;
+}
+
+#container-body{
+    padding: 42px 250px;
+}
+
+#container-head{
+    background-color: #015581;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    min-height: 350px;
+}
+
+.title{
+    font-size: 56px;
+    margin-top: 52px;
+    font-weight: 700;
+}
+
+.desc{
+    margin-top: 14px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#container-head img{
+    position: absolute;
+    margin-top: 101px;
+    margin-left: 872px;
+    width: 275px;
+}
+
+#button-wht{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 24px;
+    border: solid 3px #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 29px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#button-wht:hover{
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border: solid 3px #FFFFFF;
+    color: #015581;
+    transition: 0.3s;
+}
+
+#tentang-kami{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#small{
+    font-family: 'Poppins';
+    font-size: small;
+    font-weight: 700;
+}
+
+#medium{
+    font-size: 26px;
+    font-weight: 900;
+}
+
+#para{
+    width: 77%;
+    font-size: medium;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.tk-btn{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bar-ls{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+#light{
+    color: #717171;
+    font-size: small;
+    font-weight: 400;
+}
+
+#terkini{
+    margin-top: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* #petisi{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+} */
+
+#petisi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+#petisi > * {
+    flex: 0 0 calc(25% - 1em);
+    margin: 1em 0 0 0;
+}
+
+#petisi > :not(:nth-child(4n+4)) {
+    margin-right: 1.333333em;
+}
+
+#card-css{
+    background: #FFFFFF;
+    width: 14rem;
+    height: fit-content;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0px 10px 15px rgba(37, 42, 52, 0.148);
+}
+
+.card-image{
+    float:left;
+    text-align: center;
+    overflow: hidden;
+    height: 150px;
+}
+
+.card-image img{
+    min-width: 14rem;
+    height: 150px;
+    border-radius: 0;
+}
+
+.card-title{
+    font-size: large;
+    font-weight: 700;
+}
+
+.card-text{
+    font-size: smaller;
+    font-weight: 300;
+    text-align: justify;
+    height: fit-content;
+}
+
+.text{
+    font-size: smaller;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.card-btn{
+    width: fit-content;
+    border: solid 1px #F2951E;
+    border-radius: 24px;
+    color: #F2951E;
+    background-color: #FFFFFF;
+    font-size: small;
+    padding: 4px 12px;
+}
+
+.card-btn:hover{
+    border: solid 1px #F2951E;
+    background-color: #F2951E;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.card-red-btn{
+    width: fit-content;
+    border: solid 1px #9d2200;
+    border-radius: 24px;
+    color: #9d2200;
+    background-color: #FFFFFF;
+    font-size: small;
+    padding: 4px 12px;
+}
+
+.card-red-btn:hover{
+    border: solid 1px #9d2200;
+    background-color: #9d2200;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+#terpopuler{
+    margin-top: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.form-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #015581;
+    color: white;
+    min-height: 100vh;
+}
+
+.right-form{
+    width: 50%;
+    min-height: 100vh;
+    padding: 42px;
+    backdrop-filter: blur(4px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.remember{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: smaller;
+    font-weight: 300;
+}
+
+.remember label{
+    padding: 3px;
+    margin-bottom: 0;
+}
+
+#submitbtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-btn{
+    width: fit-content;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 25px;
+    background: #F2951E;
+    color: white;
+    font-size: large;
+    font-weight: 800;
+}
+
+.submit-btn:hover{
+    background: #da7400;
+    color: white;
+    transition: 0.5s;
+}
+
+#last-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+#last-row a{
+    color: #ffdbac;
+}
+
+#last-row a:hover{
+    color: #F2951E;
+    transition: 0.5s;
+}
+
+.form-petisi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #015581 !important;
+    min-height: fit-content;
+    margin-top: 24px;
+}
+
+.header{
+    background-color: #015581;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 24px;
+    min-height: fit-content;
+}
+
+.role{
+    backdrop-filter: blur(4px);
+    border-radius: 7px;
+    width: 128px;
+    color: #fafafa;
+    padding: 3px;
+    text-align: center;
+}
+
+.info{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #015581;
+}
+
+.profil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#fl{
+    font-size: small;
+    font-weight: 600;
+}
+
+.empty{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #015581;
+    margin-top: 54px;
+}
+
+.notdesc{
+    margin-top: 34px;
+    text-align: center;
+}
+
+.ca{
+    position: absolute;
+    background-image: linear-gradient(190deg, #015481e3 , #6fcdffc3);
+    color: white;
+    font-size: small;
+    font-weight: 600;
+    padding: 4px;
+    border-radius: 0px 0px 7px 0px;
+}
